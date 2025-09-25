@@ -210,7 +210,7 @@ const Midbar = ({ onToggle, isOpen }) => {
 
 
       {/* Tweet Button + Floating Menu */}
-      <div className="fixed bottom-20 right-10 flex flex-col items-end gap-2 z-50">
+      <div className="fixed bottom-20 right-10 flex flex-col items-end gap-2 z-50 sm:hidden">
 
         {/* Floating Icons - Show only when toggleButton is true */}
         {toggleButton && (
