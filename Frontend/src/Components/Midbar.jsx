@@ -192,23 +192,6 @@ const Midbar = ({ onToggle, isOpen }) => {
       ))}
 
 
-
-      {/* Posting a Tweet Button
-      <div>
-        <button onClick={handleTweetButton} className='fixed bottom-20 right-10 text-white text-xl bg-blue-400 p-3.5 rounded-full'><IoMdAdd /></button>
-      </div>
-
-      {toggleButton && tweetaddbutton.map(({name, icon: Icons}, index) => (
-          <div className=' bottom-60 right-20'>
-              <div className='flex items-center gap-5'>
-                  <h1 className='text-white'>{name}</h1>
-                  <div className='text-white'><Icons /></div>
-              </div>
-          </div>
-      ))} */}
-
-
-
       {/* Tweet Button + Floating Menu */}
       <div className="fixed bottom-20 right-10 flex flex-col items-end gap-2 z-50 sm:hidden">
 
